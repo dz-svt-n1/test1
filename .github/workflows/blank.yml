@@ -30,5 +30,8 @@ jobs:
         #run: tracert 8.8.8.8
         #run: python test.py
         run: |
+          python test.py
           echo aaa at main
           python test.py
+          git log
+          

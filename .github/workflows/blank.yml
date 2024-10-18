@@ -28,4 +28,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         #run: tracert 8.8.8.8
-        run: python test.py
+        #run: python test.py
+        run: |
+          echo aaa at main
+          python test.py

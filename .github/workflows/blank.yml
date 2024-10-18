@@ -34,8 +34,7 @@ jobs:
           echo aaa at main
           python test.py
           git log
-          robot --version
-          rebot --version
+          robot test.robot
           
           
           
